@@ -97,8 +97,10 @@ EMAIL_RE = re.compile(
                                         #empty labels are not possible, so
                                         #something like @.com failes.
 
-    [A-Za-z]{2,24}                         #letters only, kills unusual header injection
-    $                                      
+    [A-Za-z]{2,24}                         #letters only, rejects the %0ABcc header injection attempt 
+    $                                      #^ and $ together force the pattern to cover the whole token
+                                           # this is what stops payments@alueducation.com.secure-billing.ru
+                                           # matching on just the trusted-looking front half
     #all alternatives above take only one character, and each doamin
     #label ends with a dot(.), so no suspicious input is left for the
     #engine to backtrack through.
@@ -258,8 +260,8 @@ def extract_cards(text):
 PHONE_RE = re.compile(
     r"""
     (?<!\d)
-    \+\d{1,3}                         # country code
-    (?: [ -]? \( \d{1,4} \) )?        # optional area code
+    \+\d{1,3}                         # country code, 1 to 3 digits after +
+    (?: [ -]? \( \d{1,4} \) )?        # optional area code in paranthese ()
     (?: [ -]? \d{2,4} ){2,4}          # 2-4 digit groups
     (?!\d)
 """,
