@@ -81,10 +81,15 @@ alu-regex-data-extraction_Kabi-J-Paul/
 ---
 
 ## Running it
+Requires Python 3.7 or higher.
 
+DO the steps below in order in your terminal
 ```bash
+git clone https://github.com/Kabi-J-Paul/alu-regex-data-extraction_Kabi-J-Paul
+cd alu-regex-data-extraction_Kabi-J-Paul
 python src/main.py
 ```
+Use `python3` instead of python on macOs or Linux
 
 Runs from the project root or from inside `src/` — paths are built from the script's own location, not the working directory.
 
